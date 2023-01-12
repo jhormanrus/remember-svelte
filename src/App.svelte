@@ -8,6 +8,7 @@
   import ReactiveObjects from './lib/ReactiveObjects.svelte'
   import Props from './lib/Props.svelte'
   import IfElse from './lib/IfElse.svelte'
+  import Each from './lib/Each.svelte'
 </script>
 
 <main>
@@ -47,6 +48,10 @@
     <li>
       <b>If Else block:</b>
       <IfElse />
+    </li>
+    <li>
+      <b>Each block:</b>
+      <Each />
     </li>
   </ul>
 </main>
