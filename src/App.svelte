@@ -7,8 +7,9 @@
   import ReactiveDeclaration from './lib/ReactiveDeclaration.svelte'
   import ReactiveObjects from './lib/ReactiveObjects.svelte'
   import Props from './lib/Props.svelte'
-  import IfElse from './lib/IfElse.svelte'
-  import Each from './lib/Each.svelte'
+  import IfElse from './lib/IfElseBlock.svelte'
+  import Each from './lib/EachBlock.svelte'
+  import Await from './lib/AwaitBlock.svelte'
 </script>
 
 <main>
@@ -52,6 +53,10 @@
     <li>
       <b>Each block:</b>
       <Each />
+    </li>
+    <li>
+      <b>Await block:</b>
+      <Await />
     </li>
   </ul>
 </main>
