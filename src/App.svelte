@@ -10,6 +10,7 @@
   import IfElse from './lib/IfElseBlock.svelte'
   import Each from './lib/EachBlock.svelte'
   import Await from './lib/AwaitBlock.svelte'
+  import DomEvents from './lib/DomEvents.svelte'
 </script>
 
 <main>
@@ -57,6 +58,10 @@
     <li>
       <b>Await block:</b>
       <Await />
+    </li>
+    <li>
+      <b>DOM events:</b>
+      <DomEvents />
     </li>
   </ul>
 </main>
