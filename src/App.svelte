@@ -11,6 +11,7 @@
   import Each from './lib/EachBlock.svelte'
   import Await from './lib/AwaitBlock.svelte'
   import DomEvents from './lib/DomEvents.svelte'
+  import ComponentEvents from './lib/ComponentEvents.svelte'
 </script>
 
 <main>
@@ -62,6 +63,10 @@
     <li>
       <b>DOM events:</b>
       <DomEvents />
+    </li>
+    <li>
+      <b>Component events:</b>
+      <ComponentEvents on:message={(e) => alert(e.detail.text)} />
     </li>
   </ul>
 </main>
