@@ -12,6 +12,7 @@
   import Await from './lib/AwaitBlock.svelte'
   import DomEvents from './lib/DomEvents.svelte'
   import ComponentEvents from './lib/ComponentEvents.svelte'
+  import Binding from './lib/Binding.svelte'
 </script>
 
 <main>
@@ -67,6 +68,10 @@
     <li>
       <b>Component events:</b>
       <ComponentEvents on:message={(e) => alert(e.detail.text)} />
+    </li>
+    <li>
+      <b>Binding:</b>
+      <Binding />
     </li>
   </ul>
 </main>
