@@ -13,6 +13,7 @@
   import DomEvents from './lib/DomEvents.svelte'
   import ComponentEvents from './lib/ComponentEvents.svelte'
   import Binding from './lib/Binding.svelte'
+  import BindingGroup from './lib/BindingGroup.svelte'
 </script>
 
 <main>
@@ -72,6 +73,10 @@
     <li>
       <b>Binding:</b>
       <Binding />
+    </li>
+    <li>
+      <b>Binding group:</b>
+      <BindingGroup />
     </li>
   </ul>
 </main>
