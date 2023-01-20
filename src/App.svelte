@@ -14,6 +14,7 @@
   import ComponentEvents from './lib/ComponentEvents.svelte'
   import Binding from './lib/Binding.svelte'
   import BindingGroup from './lib/BindingGroup.svelte'
+  import BindingSelect from './lib/BindingSelect.svelte'
 </script>
 
 <main>
@@ -77,6 +78,10 @@
     <li>
       <b>Binding group:</b>
       <BindingGroup />
+    </li>
+    <li>
+      <b>Binding select:</b>
+      <BindingSelect />
     </li>
   </ul>
 </main>
