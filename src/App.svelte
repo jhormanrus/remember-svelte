@@ -16,6 +16,7 @@
   import BindingGroup from './lib/BindingGroup.svelte'
   import BindingSelect from './lib/BindingSelect.svelte'
   import BindingContenteditable from './lib/BindingContenteditable.svelte'
+  import BindingDimensions from './lib/BindingDimensions.svelte'
 </script>
 
 <main>
@@ -87,6 +88,10 @@
     <li>
       <b>Contenteditable binding:</b>
       <BindingContenteditable />
+    </li>
+    <li>
+      <b>Dimensions:</b>
+      <BindingDimensions />
     </li>
   </ul>
 </main>
